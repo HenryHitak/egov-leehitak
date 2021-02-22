@@ -8,4 +8,4 @@
 		<!-- 파라미터에 Null 값이 있을 경우 공백으로 처리 Null => '' -->
 		<setting name="jdbcTypeForNull" value="VARCHAR"/>
 	</settings>
-</configuration> 
+</configuration>
