@@ -101,7 +101,7 @@ public class MemberTest {
 		pageVO.setTotalCount(listMember.size());
 		List<EmployerInfoVO> memberList = memberService.selectMember(pageVO);
 		for(EmployerInfoVO member:memberList) {
-			System.out.println("현재 등록된 회원은 " + member.toString());
+			System.out.println("현재 등록되 회원은 " + member.toString());
 		}
 	}
 	@Test
